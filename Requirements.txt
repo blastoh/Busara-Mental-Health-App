@@ -1,5 +1,5 @@
 Streamlit version = 1.12.2
 Python
-numpy 
 joblib 
+numpy 
  
