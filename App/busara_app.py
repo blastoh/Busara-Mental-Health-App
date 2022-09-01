@@ -10,7 +10,7 @@ import sklearn
 
 # add banner image
 st.header("Busara Mental Health")
-st.image("/Users/Jmwaya/Desktop/D-LAB/busara/Busara_Mental_Health.jpeg")
+st.image("/Images/Busara_Mental_Health.jpeg")
 st.subheader(
     """
 A simple app that predicts if an individual suffers depression.
@@ -36,13 +36,13 @@ submit = our_form.form_submit_button(label="make prediction")
 # load the model and scaler
 
 with open(
-    join(dirname(realpath(__file__)), "/Users/Jmwaya/Desktop/D-LAB/busara/ModelHist.pkl"),
+    join(dirname(realpath(__file__)), "/Model/ModelHist.pkl"),
     "rb",
 ) as f:
     model = joblib.load(f)
 
 with open(
-    join(dirname(realpath(__file__)), "/Users/Jmwaya/Desktop/D-LAB/busara/Scaler.pkl"), "rb"
+    join(dirname(realpath(__file__)), "/Preprocessing/Scaler.pkl"), "rb"
 ) as f:
     scaler = joblib.load(f)
     
