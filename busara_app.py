@@ -5,8 +5,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 from os.path import dirname, join, realpath
-import joblib
-import sklearn
+
 
 # add banner image
 st.header("Busara Mental Health")
