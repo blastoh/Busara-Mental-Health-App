@@ -1,4 +1,5 @@
-Streamlit version = 1.12.2
-Python
+streamlit version = 1.12.2
 joblib
-numpy
+numpy 
+pandas 
+sklearn
